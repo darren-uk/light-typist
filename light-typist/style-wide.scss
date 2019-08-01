@@ -1,0 +1,153 @@
+// BIGGER THAN MOBILE
+
+@media only screen and (min-width: 500px) {
+
+    .container {
+        display: grid;
+        grid-template-areas:
+            "htl htm htr"
+            ". hm2 ."
+            "hb hb hb"
+            "art art art"
+            "foot foot foot";
+        grid-template-columns: 1fr 1fr 1fr;
+        box-shadow: 0 0 4px 1px #574d4f, inset 0 0 0 1px #574d4f; //with drop shadow
+
+    }
+
+    // Centers post & limits width
+    .wide-limit {
+        margin: 0 auto;
+        max-width: 60%;
+    }
+
+    #today {
+        grid-area: htl;
+        font-size: 0.4em;
+        display: block;
+        margin-bottom: 50px
+    }
+
+    .location {
+        grid-area: htm;
+        justify-self: center;
+        line-height: 16px;
+        margin-bottom: 50px;
+
+        span {
+            display: none;
+        }
+    }
+
+    .top-info {
+        display: block;
+        grid-area: htr;
+        font-size: 0.4em;
+        margin-bottom: 50px;
+        justify-self: center;
+
+    }
+
+    h1.main-title {
+        grid-area: hm2;
+        height: 100%;
+    }
+
+
+    hr {
+        display: none;
+    }
+
+    nav {
+        grid-area: hb;
+        min-height: 0px;
+        margin-bottom: 50px;
+
+        ul {
+            display: flex;
+            flex-direction: row;
+
+            li {
+                font-size: 0.6em;
+                margin-left: 12px;
+
+            }
+
+            li:after {
+                content: "|";
+                margin-left: 12px;
+            }
+
+            li:last-child::after {
+                content: "";
+            }
+        }
+    }
+
+    article {
+        grid-area: art;
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+        grid-gap: 60px;
+        padding-left: 80px;
+        padding-right: 80px;
+
+        .post {
+            padding-top: 20px;
+
+            .author {
+                span {
+                    display: inline-block;
+                }
+            }
+        }
+    }
+
+
+
+    .comment-respond {
+        display: block;
+    }
+
+    .comment-form {
+        display: block;
+    }
+
+    .comment-form-author,
+    .comment-form-email,
+    .comment-form-url {
+        max-width: 65%;
+        display: block;
+
+
+        input {
+            border: none;
+            float: right;
+
+        }
+    }
+
+    footer {
+        grid-area: foot;
+
+        nav {
+            margin-bottom: 0px;
+        }
+
+        .advgb-social-icons {
+            padding: 25px 0px 25px 0px;
+            font-size: 2em;
+
+            a.advgb-social-icon {
+                width: 30px;
+                height: 30px;
+            }
+        }
+
+        .copyright {
+            padding: 0px 0px 50px 0px;
+            font-size: 1em;
+        }
+    }
+
+}

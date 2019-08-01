@@ -1,0 +1,82 @@
+.social-box {
+    display: flex;
+    margin: -20px 0 40px;
+    padding: 0 4rem 0;
+}
+
+.social-btn {
+    display: flex;
+    max-width: 100%;
+    flex-wrap: wrap;
+
+    &:before {
+        content: "Share";
+        margin-right: 20px;
+        font-family: 'Quicksand',
+            sans-serif;
+    }
+}
+
+.sbtn {
+    margin-right: 20px;
+}
+
+//twitter
+
+.s-twitter {
+    &:before {
+        font-family: fontawesome;
+        content: '\f099';
+        color: #00aced;
+    }
+}
+
+//Facebook
+
+.s-facebook {
+    &:before {
+        font-family: fontawesome;
+        content: '\f09a';
+        color: #3b5998;
+    }
+}
+
+//WhatsApp
+
+.s-whatsapp {
+    &:before {
+        font-family: fontawesome;
+        content: '\f232';
+        color: green;
+    }
+}
+
+//Google+
+
+.s-googleplus {
+    &:before {
+        font-family: fontawesome;
+        content: '\f0d5';
+        color: #d34836;
+    }
+}
+
+//Pinterest
+
+.s-pinterest {
+    &:before {
+        font-family: fontawesome;
+        content: '\f231';
+        color: #c8232c;
+    }
+}
+
+//Linkedin
+
+.s-linkedin {
+    &:before {
+        font-family: fontawesome;
+        content: '\f0e1';
+        color: #0077B5;
+    }
+}
