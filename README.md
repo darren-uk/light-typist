@@ -1,5 +1,5 @@
 # light-typist
-WordPress theme based on CSS Grid &amp; Flexbox. Light colour scheme ideal for bloggers. Responsive
+(UN-FINISHED) WordPress theme based on CSS Grid &amp; Flexbox. Light colour scheme ideal for bloggers. Responsive
 
 Latest update issued: 1st AUGUST 2019 , 01/08/2019 Version 0.0.1
 
