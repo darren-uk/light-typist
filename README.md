@@ -17,7 +17,9 @@ NO AUTOMATIC UPDATES AVAILABLE
 To update overwrite 'light-typist' folder
 
 UPDATE HISTORY:
+
 4th October 2019, 04/10/2109 version 0.0.2 - Fixed scrolling issue on mobile
+
 1st AUGUST 2019 , 01/08/2019 Version 0.0.1 - Initial upload
 
 
